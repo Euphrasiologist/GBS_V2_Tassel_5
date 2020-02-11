@@ -24,7 +24,7 @@ bwa aln -t 15 ../scaffolds_disomic_concat_dipOrTet.fasta.gz ../alignment/tagstoa
 
 # and convert the output into a human readable .sam file
 
-"\n\n Converting the file to sam format... \n\n"
+echo -e "\n\n Converting the file to sam format... \n\n"
 
 bwa samse ../scaffolds_disomic_concat_dipOrTet.fasta.gz ../alignment/tagstoalign.sai ../alignment/tagstoalign.fa.gz > ../alignment/tagstoalign.sam 
 

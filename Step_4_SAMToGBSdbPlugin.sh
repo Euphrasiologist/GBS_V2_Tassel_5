@@ -12,4 +12,4 @@ LOG=./logs/SAMToGBSdbPlugin.log
 
 echo -e "\n\n Finding positions of tags on the reference genome \n\n"
 
-../tassel-5-standalone/run_pipeline.pl -fork1 -SAMToGBSdbPlugin -i ../alignment/tagstoalign.sam -db ../database_files/gbs.db -endPlugin -runfork1
+../tassel-5-standalone/run_pipeline.pl -fork1 -SAMToGBSdbPlugin -i ../alignment/tagstoalign.sam -db ../database_files/gbs.db -endPlugin -runfork1 2>&1 | tee -a $LOG
