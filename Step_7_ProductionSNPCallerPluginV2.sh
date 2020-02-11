@@ -4,7 +4,7 @@
 # reads and the reference genome into a VCF file
 
 # set up the log again
-LOG=./logsProductionSNPCallerPluginV2.log
+LOG=./logs/ProductionSNPCallerPluginV2.log
 
 echo -e "\n\n Calling SNP's and output VCF... \n\n"
 
